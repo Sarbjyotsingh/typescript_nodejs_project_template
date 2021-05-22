@@ -24,6 +24,7 @@ module.exports = {
                 devDependencies: ['**/__mocks__/**', '**/*.{test,spec}.{js,ts,tsx}'],
             },
         ],
+        'no-console': 0
     },
     ignorePatterns: ['**/*.d.ts'],
     parserOptions: {

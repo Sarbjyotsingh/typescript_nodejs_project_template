@@ -4,7 +4,9 @@ const app = express();
 const port = 8080;
 
 app.get('/', (_req: Request, res: Response) => {
-  res.send('Server is Running!');
+  res.send('Hello World');
 });
 
-app.listen(port, () => {});
+app.listen(port, () => {
+  console.log(`Server is Running at http://localhost:${port}`);
+});
